@@ -1,0 +1,23 @@
+{
+  "name": "bravo",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Frank Congson <frank.congson@fnzc.co.nz>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/bravo.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://build4w.fnzsl.com/nexus/repository/npm-group/"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
