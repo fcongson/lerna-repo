@@ -4,3 +4,9 @@ class Bravo extends HTMLElement {
   }
 }
 customElements.define('bravo-element', Bravo)
+
+declare namespace JSX {
+  interface IntrinsicElements {
+    'bravo-element': any
+  }
+}
