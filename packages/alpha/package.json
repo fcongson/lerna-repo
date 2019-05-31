@@ -1,23 +1,17 @@
 {
   "name": "alpha",
-  "version": "0.0.0",
-  "description": "> TODO: description",
-  "author": "Frank Congson <frank.congson@fnzc.co.nz>",
-  "homepage": "",
-  "license": "ISC",
-  "main": "lib/alpha.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "publishConfig": {
-    "registry": "http://build4w.fnzsl.com/nexus/repository/npm-group/"
-  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
   "scripts": {
     "tsc": "tsc",
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.8.19",
+    "react": "^16.8.6"
   }
 }
