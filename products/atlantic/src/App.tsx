@@ -10,7 +10,6 @@ const App: React.FC = () => {
     <div className="App">
       <Alpha></Alpha>
       <bravo-element></bravo-element>
-      // @ts-ignore
       <charlie-element></charlie-element>
     </div>
   );

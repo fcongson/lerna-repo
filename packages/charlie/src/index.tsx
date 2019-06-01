@@ -13,8 +13,10 @@ class CharlieWebComponent extends HTMLElement {
 }
 customElements.define('charlie-element', CharlieWebComponent)
 
-declare namespace JSX {
-  interface IntrinsicElements {
-    'charlie-element': any
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      'charlie-element': any
+    }
   }
 }
