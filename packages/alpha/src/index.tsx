@@ -1,5 +1,5 @@
 import * as React from 'react'
 
-const Alpha = () => <div>alpha component</div>
+const Alpha = () => <div>i'm a react component</div>
 
 export default Alpha
