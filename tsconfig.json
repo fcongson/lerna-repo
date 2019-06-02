@@ -13,7 +13,10 @@
       "es6",
       "dom"
     ],
-    "jsx": "react"
+    "jsx": "react",
+    "types": [
+      "react"
+    ]
   },
   "exclude": [
     "node_modules",
